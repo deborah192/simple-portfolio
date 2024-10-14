@@ -1,0 +1,218 @@
+ /*Making Webpage responsive*/
+ @media screen and (min-width: 850px) {
+    header {
+       padding: 2.5em 2.5em 1.5em 2.5em;
+    }
+ 
+    header img {
+       height: 60px;
+       width: 60px;
+    }
+ 
+    .Name {
+       font-size: 2em;
+ 
+    }
+ 
+    .navbar ul li a {
+       top: 1em;
+       font-size: 1.2em;
+    }
+ 
+ 
+    .container {
+       padding-top: 170px;
+       padding-bottom: 400px;
+    }
+ 
+    .container img {
+       margin-top: 2em;
+       left: 15%;
+       height: 300px;
+       width: 300px;
+ 
+    }
+ 
+    .container h1 {
+       font-size: 3em;
+    }
+ 
+    .container h2 {
+       font-size: 1.1em;
+       position: absolute;
+       width: 50%;
+       left: 48%;
+       bottom: 5%;
+       padding-bottom: 1.2em;
+ 
+    }
+ 
+    .socials {
+       position: absolute;
+       left: 1%;
+       top: 50%;
+ 
+    }
+ 
+    .socials a {
+       font-size: 1.2em;
+       border-bottom: 1.5px dashed #763405;
+    }
+ 
+    .design {
+       display: grid;
+       grid-template-columns: repeat(3, minmax(0, 1fr));
+       margin: 1em auto;
+       padding: 3em 0 2em 1em;
+ 
+    }
+ 
+    .design h2 {
+       color: #763405;
+       text-align: left;
+       margin: 0;
+       padding-bottom: .5em;
+    }
+ 
+    .design p,
+    li {
+       width: 90%;
+       margin-left: 0;
+    }
+ 
+    #parts {
+       padding-bottom: 2em;
+    }
+ 
+    .design span {
+       font-size: .5em;
+       margin-left: .5em;
+ 
+    }
+ 
+       /*About Page*/
+    .about-container {
+       padding-top: 150px;
+    }
+ 
+    .about-container p {
+       width: 80%;
+    }
+ 
+    .about-design,
+    #edu {
+       width: 90%;
+    }
+ 
+    .about-design #parts ul {
+       grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+ 
+ 
+    .form {
+       display: block;
+       height: 32em;
+       width: 100%;
+       padding-top: 2em;
+ 
+    }
+ 
+    .form img {
+       width: 30em;
+       height: 30em;
+       padding: 0.5em;
+       float: left;
+ 
+       margin-left: 5%;
+    }
+ 
+    .form h2 {
+       font-size: 2.2em;
+       padding-bottom: 0.5em;
+    }
+ 
+    .form p {
+       font-size: 1em;
+       max-width: 90%;
+       margin: auto;
+ 
+    }
+ 
+    .form-input {
+       position: absolute;
+       left: 60%;
+       bottom: -95%;
+       width: 40%;
+    }
+ 
+ 
+ }
+ 
+ @media screen and (min-width: 1200px) {
+ 
+    .container {
+       padding-bottom: 600px;
+    }
+ 
+    .container img {
+       margin-top: 3em;
+       left: 22%;
+       height: 500px;
+       width: 500px;
+ 
+    }
+ 
+    .container h1 {
+       font-size: 3.5em;
+    }
+ 
+    .container h2 {
+       font-size: 1.4em;
+       width: 40%;
+       left: 55%;
+       bottom: 10%;
+       padding-bottom: 1em;
+    }
+ 
+    .socials {
+       left: 10%;
+       top: 45%;
+       line-height: 2em;
+ 
+    }
+ 
+    .socials a {
+       line-height: 2.5em;
+       font-size: 1.4em;
+    }
+ 
+    .connect p {
+       margin: 0 0 3em 3em;
+    }
+ 
+    .about-design {
+       width: 80%;
+    }
+ 
+ 
+    .form {
+       padding-top: 0;
+       height: 35em;
+    }
+ 
+    .form img {
+       width: 33em;
+       height: 33em;
+    }
+ 
+    .form h2 {
+       font-size: 2.4em;
+    }
+ 
+ 
+    .form-input {
+       left: 45%;
+       width: 50%;
+    }
+ 
+ }
